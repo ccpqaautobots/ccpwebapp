@@ -1,0 +1,40 @@
+[
+    {
+        "name": "April2016",
+        "displayName": "April 2016",
+        "home": "index.html",
+        "path": "newsletter/april2016",
+        "thumbnail": "newsletter/april2016/newsletter_tn.jpg",
+        "authors": [
+            "John Doe",
+            "James Doe",
+            "Katie Doe"
+        ]
+        
+    },
+    {
+        "name": "January2016",
+        "displayName": "January 2016",
+        "home": "index.html",
+        "path": "newsletter/january2016",
+        "thumbnail": "newsletter/january2016/newsletter_tn.jpg",
+        "authors": [
+            "John Doe",
+            "James Doe",
+            "Katie Doe"
+        ]
+        
+    },
+    {
+        "name": "November2015",
+        "displayName": "November 2015",
+        "home": "index.html",
+        "path": "newsletter/november2015",
+        "thumbnail": "newsletter/november2015/newsletter_tn.jpg",
+        "authors": [
+            "John Doe",
+            "James Doe",
+            "Katie Doe"
+        ]
+    }
+]

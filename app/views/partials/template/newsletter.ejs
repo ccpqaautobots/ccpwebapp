@@ -1,0 +1,23 @@
+<!-- Newsletter
+============================================= -->
+<section id="newsletter">
+    <div class="container-fluid">
+        <h2>Newsletter</h2>
+        <hr class="sep">
+        <p>Come On Entertain yourself</p>
+        <div class="row">
+            <% newsletters.forEach(function(item) { %>
+            <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="newsletter-box">
+                    <img src="<%= item.thumbnail %>" class="img-responsive" alt="<%= item.name %>">
+                    <div class="newsletter-box-caption">
+                        <div class="newsletter-box-caption-content">
+                            <a class="btn btn-transparent" href="<%= item.path %>"><%= item.displayName %></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <% }); %>
+        </div>
+    </div>
+</section>

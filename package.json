@@ -1,0 +1,19 @@
+{
+  "name": "ccpwebapp",
+  "version": "1.0.0",
+  "description": "Cambridge Core Web Application",
+  "main": "app/app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "reload": "^1.0.1",
+    "socket.io": "^1.5.0",
+    "ejs": "^2.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon -e css,ejs,js,json --watch app"
+  },
+  "author": "Krizzchanne Cid",
+  "license": "UNLICENSED"
+}
