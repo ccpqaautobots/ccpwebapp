@@ -1,0 +1,27 @@
+[
+	{
+		"user": {
+			"name": "name",
+			"image": "image"
+		},
+		"post": {
+			"postedAt": "postedAt",
+			"content": "content",
+			"image": "image",
+			"likes": 0,
+			"comments": [
+				{
+					"commentedAt": "commentedAt",
+					"likes": 0,
+					"user": {
+						"name": "name",
+						"image": "image"
+					},
+					"comment": {
+						"content": "content"
+					}
+				}
+			]
+		}
+	}
+]
